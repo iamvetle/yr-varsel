@@ -9,7 +9,13 @@ const CACHE_NAME = `my-app-cache-${CACHE_VERSION}`;
 // Optional: List of assets to cache
 const assets = [
     "/",
-    "/index"
+    "index.html",
+	"favicon.ico",
+	"icon512_maskable.png",
+	"icon512_rounded.png",
+	"app.js",
+	"manifest.json",
+	
 ];
 
 // Installation event: Cache assets
