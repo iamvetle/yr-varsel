@@ -52,4 +52,10 @@
 	justify-content:center;
 }
 
+@media only screen and (max-width:768px) {
+	#theImg {
+		width:100%
+	};
+};
+
 </style>
