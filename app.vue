@@ -45,7 +45,7 @@
 <style scoped>
 #theImg {
 	max-width: 80%;
-	max-height: 100vh;
+	max-height: 80vh;
 }
 
 #divGuy {
