@@ -1,5 +1,6 @@
 <template>
 	<div>
+	<Title>The weather in Krapfoss</Title>
 		<div v-if="apiSvgUrl" id="divGuy">
 			<!-- {{ apiSvgUrl }} -->
 			<img :src="apiSvgUrl" id="theImg"/>
@@ -15,7 +16,7 @@
 	const apiSvgUrl = ref<any>(null);
 
     const url = "https://www.yr.no/en/content/1-2715300/meteogram.svg";
-	const delay = 5000;
+	const delay = 15000;
 
 	const intervalID = ref<any>(null);
 

@@ -1,0 +1,13 @@
+{
+	"name": "The weather in Krapfoss",
+	"short_name": "The weather",
+	"id": "/",
+	"description": "The weather forecast in Krapfoss",
+	"start_url": "/",
+	"scope": "/",
+	"display": "standalone",
+	"theme_color": "#ffffff",
+	"background_color": "#ffffff",
+	"icons": [
+	]
+}
